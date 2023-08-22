@@ -1,4 +1,3 @@
-//mongodb+srv://ianpedeglorio:fscv8d1D1huVP410@cluster0.x3pgn2y.mongodb.net/nodejs?retryWrites=true&w=majority
 
 
 const http = require("http")
@@ -21,7 +20,7 @@ server.listen((3000), () => {
 
 //create connection with cloud database
 
-let url = "mongodb+srv://ianpedeglorio:fscv8d1D1huVP410@cluster0.x3pgn2y.mongodb.net/nodejs?retryWrites=true&w=majority";
+let url = "";
 
 const mongoose = require("mongoose");
 
